@@ -1,0 +1,67 @@
+.body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mod-banner{
+  background-image: url("images/Layer11.png");
+  height: 562px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.mod-form{
+  background-image: url(images/Rectangle15.png);
+  height: 137px;
+}
+.bg-color-form
+{
+  background-color: #d2e2dc;
+}
+.mod-vertical-line{
+  width: 1px;
+  height: 50px;
+  background-color: #00964c;
+}
+.mod-title-color{
+  color: #00964c;
+}
+.mod-description{
+  padding: 0 135px 0 135px;
+}
+.mod-content-1-content, .mod-content-2-content, .mod-content-3-content{
+  line-height: 35px;
+  margin: 30px 0;
+}
+.line-horizontal-content{
+  height: 1px;
+  width: 50px;
+  background-color: #000000;
+  margin-top: 48px;
+}
+.mod-quotes{
+  line-height: 27px;;
+}
+.mod-form-footer{
+  background-image: url("images/Layer41.png");
+  height: 465px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.button-send{
+  width: 12rem;
+}
+.mod-footer{
+  background-color: #1f1e23;
+}
+.mod-footer-nav{
+  border-bottom: 1px solid #434247;
+}
+.mod-info{
+  line-height: 30px;
+}

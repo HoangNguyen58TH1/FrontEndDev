@@ -1,0 +1,211 @@
+
+body{
+  padding: 0px;
+  margin: 0px;
+  /* background-color: azure; */
+  width: 2000px;
+  /* width: 100%; */
+  /* background-repeat: no-repeat; */
+  /* width: 100%; */
+  height: 4019px;
+  /* height: 100%; */
+}
+.row-menu{
+  /* background-color: cornflowerblue; */
+  height: 71px;
+}
+/* Phần row-menu của logo */
+.row-menu .logo-header{
+  height: 71px;
+  float: left;
+  /* background-color: aquamarine; */
+  padding-left: 400px;
+
+}
+#logo{
+  width: 80%;
+  padding-top: 12px;
+  /* align-content: center; */
+}
+/* Phần row-menu của menu */
+.row-menu .main-menu{
+  font-size: 20px;
+  height: 71px;
+  float: right;
+  /* background-color: blueviolet; */
+  padding-right: 360px;
+  /* khoảng cách giữa các thẻ li */
+  /* word-spacing: 12px;  */
+  /* letter-spacing: 10px; */
+}
+#book-now{
+  background-color: #009549;
+  color: white;
+}
+.row-menu ul li{
+  display: inline;
+  padding:29px 20px;
+
+  /* background-color: brown; */
+}
+#menu-ul{
+  text-align: center;
+}
+/* End phần row-menu ---------------------------------------------------------------------------------------*/
+header .bg-header{
+  background-image: url("img/Layer 30.png");
+  height: 565px;
+
+}
+header .bg-header .title-header{
+  font-size: 50px;
+  padding-left: 400px;
+  padding-top: 170px;
+}
+#rooms{
+  font-weight: bold;
+  color: #009549;
+}
+
+header .bg-header .description-header{
+  font-size: 27px;
+  padding-left: 400px;
+  padding-top: 10px;
+}
+
+
+header .search-header{
+  background-image: url("img/Rectangle 15.png");
+  height: 137px;
+
+}
+.search-header .form-header{
+  /* background-color: blue; */
+  width: max-content;
+  padding-top: 44px;
+  margin: auto;
+}
+.form-header input{
+  height: 50px;
+  width: 283px;
+  background-color: #e3f3eb;
+  margin-left: 16px;
+  font-size: 18px;
+}
+.form-header #submit-header{
+  background-color: #4c4c4c;
+  color: #ffffff;
+  height: 55px;
+  border: #4c4c4c;
+}
+/* End phần header ---------------------------------------------------------------------------------------*/
+
+main .title-main{
+  height: 98px;
+  /* background-color: aqua; */
+  margin-top: 80px;
+  font-size: 37px;
+  text-align: center;
+  line-height: 50px;
+}
+#title-main-id{
+  color:#009549 ;
+  font-weight: bold;
+
+}
+main .description-main{
+  font-size: 16px;
+  text-align: center;
+  margin-top: 47px;
+}
+/* phần nội dung chính của main ----------------------------------------------------------*/
+/* style main 1 ----------------------------------------*/
+main .content-main-1{
+  margin-top: 125px;
+  width: 100%;
+  height: 501px;
+}
+main .content-main-1 .image-main{
+  width: max-content;
+  float: left;
+  margin-left: 410px;
+
+}
+
+main .content-image{
+
+  width: max-content;
+  float: left;
+  /* background-color: bisque; */
+  font-size: 24px;
+  margin-left: 90px;
+  line-height: 36px;
+}
+#green{
+  font-size: 32px;
+}
+/* 2 nút */
+.button-green{
+  background-color: #009549;
+  color: white;
+}
+.button-black{
+  background-color: #4c4c4c;
+  color: white;
+}
+/*  */
+.content-image input{
+  width: 283px;
+  height: 50px;
+  font-size: 18px;
+}
+/* style main 2 ----------------------------------------*/
+main .content-main-2{
+  margin-top: 60px;
+  width: 100%;
+  height: 501px;
+}
+main .content-image-2{
+  width: max-content;
+  float: left;
+  /* background-color: bisque; */
+  font-size: 24px;
+  margin-left: 400px;
+  line-height: 36px;
+  /* Căn chỉnh nội dung trong thẻ div sang bên phải */
+  text-align: right;
+
+}
+main .content-main-2 .image-main-2{
+  width: max-content;
+  float: right;
+  margin-right: 420px;
+}
+.content-image-2 input{
+  width: 283px;
+  height: 50px;
+  font-size: 18px;
+}
+
+/* style main 3 -copy của thằng main 1---------------------------------------*/
+/* done content main */
+/* Begin foot-main-content---------------------------------------------------------------------------------------------------------*/
+main .foot-main .open{
+  margin-left: 500px;
+  background-color: aqua;
+  width: max-content;
+}
+#ngoac{
+  font-size: 100px;
+}
+main .foot-main .home-rules{
+  font-size: 30px;
+  background-color: bisque;
+  width: max-content;
+
+}
+#rules{
+  font-weight: bold;
+  color: #009549;
+}
+/* main .foot-main .foot- */

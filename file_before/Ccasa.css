@@ -1,0 +1,80 @@
+body .container{
+  color: #a0a0a0;
+}
+h1{
+  font-size: 48px;
+}
+h3{
+  font-size: 31px;
+}
+p, ul li{
+  font-size: 19px;
+}
+.container{
+  color: #000;
+}
+.btn-booknow{
+  border-radius: 0px;
+}
+.mod-banner{
+  height: 562px;
+  background-image: url(image/Layer11.png);
+}
+.fs-color-green{
+  color: #009549;
+}
+.mod-menu{
+  height: 137px;
+  background-image: url(image/Rectangle15.png);
+  padding: 50px 0;
+  font-size: 16px;
+}
+.bg-color-input{
+  background-color: #dbf0e5;
+}
+.mod-top-content{
+  padding-top: 70px;
+}
+.mod-top-content h1{
+  line-height: 55px;
+}
+.mod-top-content p{
+  padding: 40px 50px;
+}
+.mod-content-1 p, .mod-content-2 p, .mod-content-3 p{
+  line-height: 40px;
+}
+.mod-content-2 {
+  margin: 120px;
+}
+.mod-botton-content .two-col-content {
+  padding: 45px;
+}
+.mod-content-form {
+  height: 465px;
+  background-image: url(image/Layer41.png);
+}
+.mod-content-form .headline{
+  padding: 50px;
+}
+.mod-content-form .headline p{
+  margin-top: 30px;
+}
+.mod-content-form .height-input-inquiry{
+  height: 112px;
+}
+.mod-content-form .button-send{
+  margin-top: 20px;
+}
+
+/* footer */
+footer{
+  background-color: #211f26;
+  color: #686868;
+}
+.mod-nav{
+  padding: 20px 0;
+}
+.mod-content-footer{
+  padding: 20px 0 50px;
+}
