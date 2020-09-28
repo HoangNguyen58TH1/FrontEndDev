@@ -8,42 +8,51 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
 
 </head>
 
 <body>
-    <!-- nav -->
+    <!-- mod-nav -->
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <nav class="navbar navbar-expand-lg navbar-light p-0">
+            <div class="collapse navbar-collapse mod-nav-div" id="navbarSupportedContent">
                 <a href="#" class="mr-auto">
                     <img src="images/Logo.png" alt="Logo Ccasa">
                 </a>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
+                <ul class="navbar-nav mod-nav-ul">
+                    <li class="nav-item px-3 py-2">
                         <a class="nav-link" href="#">ABOUT US</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-3 py-2">
                         <a class="nav-link" href="#">ROOMS</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-3 py-2">
                         <a class="nav-link" href="#">EXPERICENCE NHA</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-3 py-2">
                         <a class="nav-link" href="#">CONTACT US</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">BOOK NOW</a>
+                    <li class="nav-item px-3 py-2 bg-success">
+                        <a class="nav-link text-white" href="#">BOOK NOW</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    <li class="nav-item dropdown px-3 py-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             EN
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">VI</a>
+                            <a class="dropdown-item" href="#">US</a>
+                            <a class="dropdown-item" href="#">UK</a>
                         </div>
                     </li>
                 </ul>
@@ -51,7 +60,7 @@
             </div>
         </nav>
     </div>
-    <!-- end nav -->
+    <!-- end mod-nav -->
 
 
     <!-- header -->
@@ -59,8 +68,8 @@
         <!-- mod-banner -->
         <div class="mod-banner d-flex align-items-center">
             <div class="container">
-                <div class="row col-md-6">
-                    <h1>CCASA ROOMS</h1>
+                <div class="row col-md-6 mod-banner-content pl-0 ml-1">
+                    <h1>CCASA <strong class="title-color">ROOMS</strong></h1>
                     <p>Check out the best, most confortable, most friendly and cheapest hotel in Nha Trang.</p>
                 </div>
             </div>
@@ -70,24 +79,31 @@
         <!-- mod-form -->
         <div class="mod-form d-flex align-items-center">
             <div class="container">
-                <div class="form-row align-items-center rounded-0">
+                <div class="form-row align-items-center rounded-0 mod-form-text">
                     <div class="col-sm-3">
                         <label class="sr-only" for="inlineFormCheckIn">Check In</label>
-                        <input type="text" class="form-control-lg border-0 rounded-0 bg-color-form"
-                            id="inlineFormCheckIn" placeholder="Check In">
+                        <input type="text" class="form-control border-0 rounded-0 bg-color-form" id="inlineFormCheckIn"
+                            placeholder="Check In">
                     </div>
                     <div class="col-sm-3">
                         <label class="sr-only" for="inlineFormCheckOut">Check Out</label>
-                        <input type="text" class="form-control-lg border-0 rounded-0 bg-color-form"
-                            id="inlineFormCheckOut" placeholder="Check Out">
+                        <input type="text" class="form-control border-0 rounded-0 bg-color-form" id="inlineFormCheckOut"
+                            placeholder="Check Out">
                     </div>
-                    <div class="col-sm-3">
+                    <!-- <div class="col-sm-3">
                         <label class="sr-only" for="inlineForm1Guest">1 guest</label>
-                        <input type="text" class="form-control-lg border-0 rounded-0 bg-color-form"
-                            id="inlineForm1Guest" placeholder="1 guest">
+                        <input type="text" class="form-control border-0 rounded-0 bg-color-form" id="inlineForm1Guest"
+                            placeholder="1 guest">
+                    </div> -->
+                    <div class="input-group col-sm-3">
+                        <select class="custom-select border-0 rounded-0 bg-color-form py-0" id="inputGroupSelect01">
+                            <option selected>1 guest</option>
+                            <option value="1">2 guest</option>
+                            <option value="2">3 guest</option>
+                        </select>
                     </div>
                     <div class="col-sm-3">
-                        <button type="button" class="btn btn-dark btn-lg btn-block border-0 rounded-0">BOOK NOW</button>
+                        <button type="button" class="btn btn-dark btn btn-block border-0 rounded-0">BOOK NOW</button>
                     </div>
                 </div>
             </div>
@@ -108,7 +124,7 @@
         <!-- mod-title -->
         <div class="row justify-content-center text-center">
             <h1>OUR ROOMS ARE DESIGNED WITH COMFORT,<br>
-                <span class="mod-title-color"><strong>CONVENIENCE AND PRIVACY IN MIND</strong></span>
+                <span class="title-color"><strong>CONVENIENCE AND PRIVACY IN MIND</strong></span>
             </h1>
         </div>
         <!-- end mod-title -->
@@ -122,7 +138,7 @@
         <!-- end mod-description -->
 
         <!-- mod-content-1 -->
-        <div class="row mt-5">
+        <div class="row mt-4">
             <div class="col-6 pr-0">
                 <img src="images/Layer38.png" alt="Layer Content 1" class="float-left">
                 <div class="line-horizontal-content float-right">
@@ -217,7 +233,7 @@
         <!-- end mod-content-3 -->
 
         <!-- mod-vertical-line -->
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mt-5">
             <div class="mod-vertical-line my-1">
             </div>
         </div>
@@ -226,9 +242,9 @@
 
         <!-- mod-quotes -->
         <div class="row justify-content-center">
-            <h2>HOME <strong class="mod-title-color">RULES</strong></h2>
+            <h4>HOME <strong class="title-color">RULES</strong></h4>
         </div>
-        <div class="row mod-quotes">
+        <div class="row mod-quotes my-4">
             <div class="col-md-6 ">
                 <div class="row justify-content-end pr-5">
                     <ul>
@@ -268,12 +284,12 @@
 
             <!-- mod-form-title -->
             <div class="row justify-content-center">
-                <h1>GROUP BOOLING? <strong class="mod-title-color">INQUIRY?</strong></h1>
+                <h1>GROUP BOOKING? <strong class="title-color">INQUIRY?</strong></h1>
             </div>
             <!-- end mod-form-title -->
 
             <!-- mod-form-description -->
-            <div class="row justify-content-center my-4">
+            <div class="row justify-content-center my-3">
                 <p>We love to hear from you! Drop us an message, then we will in touch!</p>
             </div>
             <!-- end mod-form-description -->
@@ -304,29 +320,29 @@
     <!-- end mod-form-footer -->
 
     <!-- mod-footer -->
-    <div class="mod-footer text-white">
+    <div class="mod-footer">
         <div class="container">
             <!-- nav -->
-            <nav class="navbar navbar-expand-lg navbar-dark py-4 mod-footer-nav">
+            <nav class="navbar navbar-expand-lg navbar-dark py-3 px-0 mod-footer-nav">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <a href="#" class="mr-auto">
-                        <img src="images/Logo.png" alt="Logo Ccasa">
+                        <img src="images/Logo_footer.png" alt="Logo Ccasa">
                     </a>
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav mod-nav-ul-footer">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT US</a>
+                            <a class="nav-link px-3 py-2" href="#">ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ROOMS</a>
+                            <a class="nav-link px-3 py-2" href="#">ROOMS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">GALLERY</a>
+                            <a class="nav-link px-3 py-2" href="#">GALLERY</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">EXPERICENCE NHATRANG</a>
+                            <a class="nav-link px-3 py-2" href="#">EXPERICENCE NHATRANG</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT US</a>
+                            <a class="nav-link px-3 py-2" href="#">CONTACT US</a>
                         </li>
                     </ul>
 
