@@ -2,5 +2,5 @@
 1. Dropdown EN                          OK
 2. 1 guest                              OK
 3. Green, blue, violet -  text-dark     OK
-4. 2 image ""                           Not
-5. text color 2 input                   Next
+4. 2 image ""                           OK
+5. text color 2 input                   Next --> OK
