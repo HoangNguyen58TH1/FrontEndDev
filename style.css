@@ -8,7 +8,8 @@ html, body{
 
 .mod-banner{
   background-image: url("images/Layer11.png");
-  height: 562px;
+  /* height: 562px; */
+  /* height: 562px; */
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +25,7 @@ html, body{
 .bg-color-form{
   background-color: #e4f4eb !important;
 }
-.mod-form-text input, button, select{
+.mod-form-text > input button select, button{
   font-size: 16px !important;
 }
 .mod-vertical-line{
@@ -35,9 +36,7 @@ html, body{
 .title-color{
   color: #00964c;
 }
-.mod-description{
-  padding: 0 80px 0 80px;
-}
+
 .mod-content-1-content, .mod-content-2-content, .mod-content-3-content{
   line-height: 35px;
   margin: 30px 0;
@@ -54,7 +53,6 @@ html, body{
 .mod-form-footer{
   background-image: url("images/Layer41.png");
   /* height: 465px; */
-  height: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,6 +63,9 @@ html, body{
 }
 .mod-footer{
   background-color: #1f1e23;
+}
+.mod-footer nav{
+  border-bottom: 1px solid rgba(213, 200, 200, 0.5);
 }
 
 .mod-info{
@@ -90,10 +91,37 @@ html, body{
 /* mobile */
 /* media md */
 @media only screen and (max-width: 992px) {
-  .fs-40{
-    font-size: 40px !important;
+  .fs-38{
+    font-size: 38px !important;
   }
   .fs-16{
     font-size: 16px !important;
+  }
+  .border-none{
+    border: 0 !important;
+  }
+  .w-img-180{
+    width: 180px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .fs-13{
+    font-size: 13px !important;
+  }
+  .mod-des-px-15{
+    padding: 0 15px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .fs-30{
+    font-size: 30px !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .mod-banner-height{
+    height: 562px;
+  }
+  .mod-des-px-80{
+    padding: 0 80px;
   }
 }
