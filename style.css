@@ -19,7 +19,7 @@ html, body{
 }
 .mod-form{
   background-image: url("images/Rectangle15.png");
-  height: 137px;
+  /* height: 137px; */
 }
 .bg-color-form{
   background-color: #e4f4eb !important;
@@ -53,7 +53,8 @@ html, body{
 }
 .mod-form-footer{
   background-image: url("images/Layer41.png");
-  height: 465px;
+  /* height: 465px; */
+  height: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,9 +66,7 @@ html, body{
 .mod-footer{
   background-color: #1f1e23;
 }
-.mod-footer-nav{
-  border-bottom: 1px solid #434247;
-}
+
 .mod-info{
   line-height: 30px;
   font-size: 15px !important;
@@ -76,14 +75,25 @@ html, body{
   font-size: 13px !important;
   font-weight: bold;
 }
-.mod-nav-ul li > div  {
-  width: 50% !important;
-  min-width: 4rem;
-}
+/* .mod-nav-ul li > div  { */
+  /* width: 50% !important; */
+  /* min-width: 4rem; */
+/* } */
 .mod-banner-content{
   border-right: 1px solid rgba(213, 200, 200, 0.5);
   border-bottom: 1px solid rgba(213, 200, 200, 0.5);
 }
 .mod-nav-ul-footer{
   font-size: 13px;
+}
+
+/* mobile */
+/* media md */
+@media only screen and (max-width: 992px) {
+  .fs-40{
+    font-size: 40px !important;
+  }
+  .fs-16{
+    font-size: 16px !important;
+  }
 }

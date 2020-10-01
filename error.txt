@@ -4,3 +4,20 @@
 3. Green, blue, violet -  text-dark     OK
 4. 2 image ""                           OK
 5. text color 2 input                   Next --> OK
+
+//
+30/09/2020
+resposive checkpoint
+- xl  OK
+- lg  Ok
+- md
+  + set font-size for h1              OK
+  + set font-size for p               OK
+  + decrement for padding of navbar   not OK --> md then button collapse
+  + center image && content of body   OK
+  + show navbar footer
+  + ...
+  + posision
+  + block, inline, inline-block, ...
+- sm
+- sx
