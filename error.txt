@@ -19,5 +19,14 @@ resposive checkpoint
   + ...
   + posision
   + block, inline, inline-block, ...
-- sm
-- sx
+- sm                                  OK
+- xs                                  OK
+
+//
+02/10/2020
+1. title content 1,2,3 before image.            OK (but not best practice)
+2. content 2 text-left when position mobile.    OK
+3. padding x title form-footer                  OK
+4. spacing right wehn scroll.                   OK (because image set padding)
+
+

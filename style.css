@@ -9,7 +9,6 @@ html, body{
 .mod-banner{
   background-image: url("images/Layer11.png");
   /* height: 562px; */
-  /* height: 562px; */
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -76,10 +75,6 @@ html, body{
   font-size: 13px !important;
   font-weight: bold;
 }
-/* .mod-nav-ul li > div  { */
-  /* width: 50% !important; */
-  /* min-width: 4rem; */
-/* } */
 .mod-banner-content{
   border-right: 1px solid rgba(213, 200, 200, 0.5);
   border-bottom: 1px solid rgba(213, 200, 200, 0.5);
@@ -88,8 +83,8 @@ html, body{
   font-size: 13px;
 }
 
-/* mobile */
-/* media md */
+/*  ------------ mobile ------------  */
+/* xs - sm - md*/
 @media only screen and (max-width: 992px) {
   .fs-38{
     font-size: 38px !important;
@@ -104,6 +99,7 @@ html, body{
     width: 180px !important;
   }
 }
+/* xs - sm*/
 @media only screen and (max-width: 768px) {
   .fs-13{
     font-size: 13px !important;
@@ -112,11 +108,13 @@ html, body{
     padding: 0 15px;
   }
 }
+/* xs */
 @media only screen and (max-width: 576px) {
   .fs-30{
     font-size: 30px !important;
   }
 }
+/* md - lg -xl */
 @media only screen and (min-width: 768px) {
   .mod-banner-height{
     height: 562px;
